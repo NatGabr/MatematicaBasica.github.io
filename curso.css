@@ -1,0 +1,80 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background: #9f4fbe;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    color: #604fbe;
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    list-style-type: disc;
+    margin: 10px 0 10px 20px;
+  }
+  
+  figure {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  a.button {
+    display: inline-block;
+    background-color: #9f4fbe;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  a.button:hover {
+    background-color: #604fbe;
+  }
